@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1/0" />
+    <title>Головна</title>
+    <meta name="description" content="Кіномонстр - портал про кіно" />
+    <meta name="keywords" content="фільми, фільми он-лайн, hd" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <div class="logo_text">
+            <h1><a href="index.html">КіноМонстр</a></h1>
+            <h2>Кіно - наша пристрасть!</h2>
+          </div>
+        </div>
+
+        <div class="menubar">
+          <ul class="menu">
+            <li class="selected"><a href="index.html">Головна</a></li>
+            <li><a href="films.html">Фільми</a></li>
+            <li><a href="#">Серіали</a></li>
+            <li><a href="rating.html">Рейтинг фільмів</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site_content">
+        <div class="sidebar_container">
+          <div class="sidebar">
+            <h2>Пошук</h2>
+            <form method="post" action="#" id="search_form">
+              <input
+                type="search"
+                name="search_field"
+                placeholder="ваш запит"
+              />
+              <input type="submit" class="btn" value="знайти" />
+            </form>
+          </div>
+
+          <div class="sidebar">
+            <h2>Вхід</h2>
+            <form method="post" action="#" id="login">
+              <input type="text" name="login_field" placeholder="логін" />
+              <input
+                type="password"
+                name="password_field"
+                placeholder="пароль"
+              />
+              <input type="submit" class="btn" value="вхід" />
+              <div class="lables_passreg_text">
+                <span><a href="#">забули пароль?</a></span> |
+                <span><a href="#">регістрація</a></span>
+              </div>
+            </form>
+          </div>
+
+          <div class="sidebar">
+            <h2>Новини</h2>
+            <span>03.09.2022</span>
+            <p>Ми запустили розширений пошук</p>
+            <a href="#">читати</a>
+          </div>
+
+          <div class="sidebar">
+            <h2>Рейтинг фільмів</h2>
+            <ul>
+              <li>
+                <a href="show.html">Інтерстеллар</a
+                ><span class="rating_sidebar">8.1</span>
+              </li>
+              <li>
+                <a href="#">Матриця</a><span class="rating_sidebar">8.0</span>
+              </li>
+              <li>
+                <a href="#">Шалений макс</a
+                ><span class="rating_sidebar">7.5</span>
+              </li>
+              <li>
+                <a href="#">Хмарний атлас</a
+                ><span class="rating_sidebar">7.4</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content">
+          <h1>Нові фільми</h1>
+
+          <div class="films_block">
+            <a href="#"><img src="img/matrix.png" /></a>
+            <a href="#"><img src="img/max.png" /></a>
+            <a href="show.html"><img src="img/inter.png" /></a>
+            <a href="#"><img src="img/cloud.png" /></a>
+          </div>
+
+          <h1>Нові серіали</h1>
+
+          <div class="films_block">
+            <a href="#"><img src="img/dead.png" /></a>
+            <a href="#"><img src="img/silicon.png" /></a>
+            <a href="#"><img src="img/breakingbad.png" /></a>
+            <a href="#"><img src="img/xfiles.png" /></a>
+          </div>
+
+          <div class="posts">
+            <hr />
+            <h2><a href="#">Як знімали Інтерстеллар</a></h2>
+
+            <div class="posts_content">
+              <p>
+                45 років виповнилось Крістоферу Нолану — одному із найуспішніших
+                режисерів нашого часу, чиЇ роботи однаково улюблені як
+                вимогливими критиками, так і простими глядачами. Фільмом
+                спочатку займалась студія Paramount. Коли Крістофер Нолан посів
+                місце режисера, студія Warner Bros., яка випускала його останні
+                фільми, досягла участі в проекті.
+              </p>
+            </div>
+            <p><a href="">читати</a></p>
+
+            <h2>
+              <a href="#"
+                >Актор Том Хенкінс поділився враженням про фестиваль</a
+              >
+            </h2>
+
+            <div class="posts_content">
+              <p>
+                16 лютого в Лондоні відбулася 67 церемонія вручення нагород
+                Британської кіноакадемії. Леонардо ДіКапріо, Бред Пітт,
+                Анджеліна Джолі, Кейт Бланшетт, Хелен Міррен, Емі Адамс,
+                Крістіан Бейл, Альфонсо Куарон та інші гості та переможці премії
+                – у нашому репортажі.
+              </p>
+            </div>
+            <p><a href="">читати</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>
+          <a href="#">Головна</a> | <a href="#">Фільми</a> |
+          <a href="#">Серіали</a> | <a href="#">Рейтинг фільмів</a> |
+          <a href="#">Контакти</a>
+        </p>
+        <p>wh-db.com 2015</p>
+      </div>
+    </div>
+  </body>
+</html>
